@@ -3,4 +3,6 @@ cryptography
 reportlab
 qrcode
 pillow
+findmnt
+lsblk
  

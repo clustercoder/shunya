@@ -6,7 +6,7 @@ import time
 from wipe_tool.wipe_logger import WipeLogger
 
 
-def run_wipe(drive_path: str, method: str, dry_run: bool = False) -> str:
+def run_wipe(drive_path: str, method: str, dry_run: bool = False, safe_demo: bool = False, force: bool = False) -> str:
     """
     Run wipe with logging. Returns path to wipe log.
     """ 
